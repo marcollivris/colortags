@@ -1,0 +1,25 @@
+{
+  "name": "colortags",
+  "version": "1.0.0",
+  "description": "A simple javascript project to learn code and manage colors as tags. ",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcollivris/colortags.git"
+  },
+  "keywords": [
+    "learning",
+    "javascript",
+    "color",
+    "tags"
+  ],
+  "author": "Marc OLLIVRIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcollivris/colortags/issues"
+  },
+  "homepage": "https://github.com/marcollivris/colortags#readme"
+}

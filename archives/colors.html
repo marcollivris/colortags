@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>sandbox index page</title>
+
+<style>
+    
+    @font-face{
+        font-family: "FuturaStd";
+        font-style: normal;
+        src: url('./fonts/FuturaStd-Medium.otf');
+    }
+    
+    @font-face{
+        font-family: "FuturaStd";
+        font-weight: bold;
+        src: url('./fonts/FuturaStd-Bold.otf');
+    }
+    
+    @font-face{
+        font-family: "FuturaStd";
+        font-style: italic;
+        src: url('./fonts/FuturaStd-MediumOblique.otf');
+    }
+    
+	body{
+		font-family: "FuturaStd", Arial, Helvetica, Freesans, sans-serif;
+		color: #aea0af;
+		background-color: #000; 
+	}
+
+	#holder{
+		margin: 0 auto;
+		width: auto; 
+		height: 600px; 
+		background-color: #333;
+	}
+
+	#wrapper{
+		margin: 0 auto;
+		width: 80%;
+		background-color: #000;
+	}
+    
+    h3.appTitle{
+        text-align: center;
+    }
+
+	a, a:link, a:visited, a:hover, a:active{
+		color: #fff;
+	}
+
+	a:hover{
+		color:#0ae;
+	}
+    
+    /* specific styles */
+    #colorsList{
+        display: inline-block;
+        margin: auto 0;
+        Background: #5e5f5e;
+    }
+
+    [class^=colorHolder]{
+        display: inline-block;
+        margin: 5px;
+        padding: 3px;
+        width: 96px;
+        text-align: center;
+        line-height: 96px;
+        border: 2px solid #fff;
+        background-color: white;
+    }
+    
+    #colorsList .colorTag{
+        margin: 0;
+        width: 94px;
+        height: 94px;
+    }
+    
+    #colorsList p.label{
+        margin:0;
+        margin-top: 5px;
+        height: 30px;
+        border: 0;
+        line-height: 30px;
+        font-weight: 700;
+        background: transparent;
+    }
+    
+    #colorsList .colorTag{
+        border: 0;
+    }
+    
+    #colorsList input{
+        font-weight: 700;
+        background-color: transparent;
+        border: none;
+    }
+    
+    /* Font definitions */
+    #colorsList p.label,
+    #colorsList input {
+        font-family: "FuturaStd", Arial, sans-serif;
+        text-align: center;
+        font-size: 1.1em;
+        color: #5e5f5e;    
+    }
+    
+</style>
+
+<!--<script src="./js/"></script>-->
+<!-- jQuery -->
+<!-- <script src="js/jquery-1.11.1.min.js"></script> -->
+
+</head>
+
+
+<body>
+	<div id="wrapper">
+		<h2>Colors Page</h2>
+
+        <ul>
+            <li><a href="raphael1.html">Raphael.js test 01</a></li>
+            <li><a href="masonry1.html">masonry.js test 01</a></li>
+            <li><a href="knacss1.html">Knacss test 01</a></li>
+            <li>Colors Tests</li>
+        </ul>
+        
+        <h3 class="appTitle">colors</h3>
+        
+		<div id="holder">
+			<div id="colorsList">
+			</div>
+		</div>
+	</div>
+
+<!-- Plugins & scripts -->
+<script src="./assets/js/colors.js"></script>
+
+<script>
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+$defaultText: #efefef;
+$defaultBG: #333;
+$boardBG: #555;
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: $defaultText;
+    background-color: $defaultBG;
+
+}
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.board{
+    background-color: $boardBG;
+    height: 70vh;
+    padding: 0.5em;
+}
+
+.tag{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 69px;
+    height: 84px;
+    margin: 5px;
+    box-shadow: #000 2px 2px 3px;
+    border: 5px solid #efefef;
+    border-top: 5px solid #efefef;
+    border-bottom: 15px solid #efefef;
+    border-radius: 2px;
+}
